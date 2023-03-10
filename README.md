@@ -1,11 +1,56 @@
-# Sample Snack app
+<img src="https://raw.githubusercontent.com/vishalgaddam873/hey-dude-chatting-app/main/assets/icon-large.png" width="400" height="400" alt="Login screen"/>
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+# Hey Ddue Messenger
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+Hey Dude is a messenger app for smartphones. Hey Dude uses the internet to send text messages.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## Prerequisites
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+- [Node.js > 12](https://nodejs.org) and npm (Recommended: Use [nvm](https://github.com/nvm-sh/nvm))
+- [Watchman](https://facebook.github.io/watchman)
+- [Xcode 12](https://developer.apple.com/xcode)
+- [Cocoapods 1.10.1](https://cocoapods.org)
+- [JDK > 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- [Android Studio and Android SDK](https://developer.android.com/studio)
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## Usage
+
+#### Follow below steps to run the app
+
+- Go to your project's root folder and run `npm install`.
+- Run `npm start` or `expo start` to run the project!
+
+### `npm start`
+
+Runs the project in development mode.
+
+Open it in the [Expo app](https://expo.io) on your phone to view it. It will reload if you save edits to your files, and you will see build errors and logs in the terminal.
+
+Sometimes you may need to reset or clear the React Native packager's cache. To do so, you can pass the `--reset-cache` flag to the start script:
+
+```
+npm start -- --reset-cache
+# or
+yarn start -- --reset-cache
+# or
+expo start -c
+
+```
+
+## Folder structure
+
+This template follows a very simple project structure:
+
+- `assets`: Asset folder to store all images, vectors, etc.
+- `components`: Folder to store any common component that use through the app
+- `screens`: Folder that contains all application screens/features.
+- `App.js`: Main component that starts whole app.
+
+### Login Credentials
+
+```
+email id : example@gmail.com
+password : 123456
+```
+
+<img src="https://raw.githubusercontent.com/vishalgaddam873/hey-dude-chatting-app/main/assets/login.png" width="200" height="400" alt="Login screen"/> <img src="https://raw.githubusercontent.com/vishalgaddam873/hey-dude-chatting-app/main/assets/home.png" width="200" height="400" alt="Prfile screen"/> <img src="https://raw.githubusercontent.com/vishalgaddam873/hey-dude-chatting-app/main/assets/profile.png" width="200" height="400" alt="Prfile screen"/>
