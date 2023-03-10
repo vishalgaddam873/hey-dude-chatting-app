@@ -4,15 +4,6 @@
 
 Hey Dude is a messenger app for smartphones. Hey Dude uses the internet to send text messages.
 
-## Prerequisites
-
-- [Node.js > 12](https://nodejs.org) and npm (Recommended: Use [nvm](https://github.com/nvm-sh/nvm))
-- [Watchman](https://facebook.github.io/watchman)
-- [Xcode 12](https://developer.apple.com/xcode)
-- [Cocoapods 1.10.1](https://cocoapods.org)
-- [JDK > 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
-- [Android Studio and Android SDK](https://developer.android.com/studio)
-
 ## Usage
 
 #### Follow below steps to run the app
@@ -49,8 +40,9 @@ This template follows a very simple project structure:
 ### Login Credentials
 
 ```
-email id : example@gmail.com
+email id : vishu@heydude.com
 password : 123456
 ```
 
-<img src="https://raw.githubusercontent.com/vishalgaddam873/hey-dude-chatting-app/main/assets/login.png" width="200" height="400" alt="Login screen"/> <img src="https://raw.githubusercontent.com/vishalgaddam873/hey-dude-chatting-app/main/assets/home.png" width="200" height="400" alt="Prfile screen"/> <img src="https://raw.githubusercontent.com/vishalgaddam873/hey-dude-chatting-app/main/assets/profile.png" width="200" height="400" alt="Prfile screen"/>
+<!--
+<img src="https://raw.githubusercontent.com/vishalgaddam873/hey-dude-chatting-app/main/assets/login.png" width="200" height="400" alt="Login screen"/> <img src="https://raw.githubusercontent.com/vishalgaddam873/hey-dude-chatting-app/main/assets/home.png" width="200" height="400" alt="Prfile screen"/> <img src="https://raw.githubusercontent.com/vishalgaddam873/hey-dude-chatting-app/main/assets/profile.png" width="200" height="400" alt="Prfile screen"/> -->
